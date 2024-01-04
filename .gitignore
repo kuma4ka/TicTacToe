@@ -1,0 +1,32 @@
+# Rider-specific files
+.idea/
+*.sln.iml
+*.csproj.DotSettings
+
+# Ignore compiled files
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.dll.mdb
+
+# Ignore user-specific files
+*.user
+*.userprefs
+*.suo
+*.sln.docstates
+
+# Ignore logs and databases
+*.log
+*.sqlite
+
+# Ignore Node.js files
+node_modules/
+
+# Ignore compiled JavaScript
+*.map
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
